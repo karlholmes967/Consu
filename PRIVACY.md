@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 24 April 2026**
+**Last updated: 15 May 2026**
 
 This Privacy Policy explains how Consu ("the app", "we", "our") collects, uses,
 and protects personal data when you use the Consu mobile application.
@@ -44,11 +44,23 @@ information we or our sub-processors handle:
   Apple account.
 - **Device-local preferences** — theme, accent colour, zoom settings, completed
   tutorials and similar UI state are stored on your device.
+- **Crash diagnostics** — when the app crashes, Firebase Crashlytics records
+  the crash stack trace, the operating system version, the device model, the
+  app version, and the breadcrumbs of the most recent in-app actions. This data
+  is automatically generated and does not include the contents of your library
+  or personal messages. You can opt out under
+  **Settings → Diagnostics → Send crash reports**.
+- **Usage analytics** — Firebase Analytics records a small set of funnel events
+  (first app open, onboarding completion, first item added, first rating, Pro
+  purchase, account deletion). The events themselves carry no library content,
+  names, or messages. Firebase also automatically logs technical events such as
+  screen views and an approximate country derived from your IP address.
 
 ### 2.3 Information we do NOT collect
 
-- We do not use analytics SDKs (Google Analytics for Firebase, Crashlytics,
-  Mixpanel, Segment, or similar) in this version of Consu.
+- We do not use third-party analytics SDKs such as Mixpanel, Segment, Amplitude
+  or advertising-attribution SDKs. The only analytics layer in Consu is the
+  minimal Firebase Analytics funnel described in section 2.2.
 - We do not use advertising networks or serve ads.
 - We do not collect location data.
 - We do not access your contacts, phone, camera roll (except when you
@@ -63,12 +75,17 @@ information we or our sub-processors handle:
 | Cloud backup and cross-device sync via Firebase | Contract (6(1)(b)) |
 | Connect you with friends you choose to add | Contract (6(1)(b)) |
 | Process one-time Pro upgrade payments | Contract (6(1)(b)) |
+| Diagnose crashes and improve app stability | Legitimate interest (6(1)(f)) |
+| Measure aggregate product usage to prioritise improvements | Legitimate interest (6(1)(f)) |
 | Prevent abuse and secure the service | Legitimate interest (6(1)(f)) |
 | Comply with legal obligations (e.g. tax records for sales) | Legal obligation (6(1)(c)) |
 
 We do not rely on consent as the primary legal basis for the processing above,
-because the processing is necessary to provide the service you requested. You
-can stop all processing at any time by deleting your account (see section 8).
+because the processing is necessary to provide the service you requested or
+is based on our legitimate interests where the data is minimised and the
+impact on you is low. You can stop all processing at any time by deleting your
+account (see section 8). You can opt out of crash diagnostics under
+**Settings → Diagnostics**.
 
 ## 4. Third-party services and data transfers
 
@@ -91,6 +108,43 @@ Firebase Authentication services are operated from Google's global
 infrastructure, including servers in the United States; transfers outside the
 European Economic Area (EEA) are covered by the EU Standard Contractual Clauses
 in Google's Data Processing Addendum.
+
+Policy: https://firebase.google.com/support/privacy
+
+### 4.1a Firebase Crashlytics (Google Ireland Limited / Google LLC)
+
+Used to capture crash reports. Crashlytics receives:
+
+- The crash stack trace and exception type.
+- Device model, operating-system version, app version and build identifier.
+- A breadcrumb log of the most recent app interactions (which screen was open,
+  button taps, etc.) **excluding** the content of any library item, friend
+  message, or profile data.
+- Your Firebase UID, used solely to deduplicate crash reports per user.
+
+Crashlytics does not receive your name, email, library contents, or friend
+codes. Crash data is retained by Google for up to 90 days and then deleted.
+
+You can opt out of crash reporting under **Settings → Diagnostics**. When
+disabled, no further crash reports are sent.
+
+Policy: https://firebase.google.com/support/privacy
+
+### 4.1b Firebase Analytics (Google Ireland Limited / Google LLC)
+
+Used to measure a minimal funnel of usage signals. Analytics receives:
+
+- Six custom events: `install`, `onboarding_complete`, `first_add`,
+  `first_rate`, `pro_purchase`, `account_deletion`. Event names only — no
+  parameters carrying content.
+- Auto-collected events such as `screen_view`, `app_open`, and `first_open`.
+- An approximate country derived from your IP address. The IP itself is not
+  retained.
+- A randomly generated app-instance identifier used to deduplicate sessions.
+
+Analytics does not receive your library contents, friend codes, display name,
+email, or any in-app messages. Analytics data is retained by Google for up to
+14 months (Firebase's default retention) and then deleted.
 
 Policy: https://firebase.google.com/support/privacy
 
@@ -162,8 +216,8 @@ Policy: https://www.revenuecat.com/privacy
 - Data stored on your device stays on your device.
 - Data synced to Firestore and Firebase Storage is hosted in the
   **`europe-west2` (London, United Kingdom)** region.
-- Transfers to Google's US infrastructure for core authentication services are
-  covered by the EU Standard Contractual Clauses.
+- Transfers to Google's US infrastructure for core authentication, Crashlytics,
+  and Analytics services are covered by the EU Standard Contractual Clauses.
 - Cloudflare Worker requests are routed through Cloudflare's global edge
   network.
 
@@ -173,6 +227,10 @@ Policy: https://www.revenuecat.com/privacy
 - When you delete your account (Settings → Account → Delete Account), your
   Firestore data and Firebase Storage files are deleted immediately. Any
   backups or logs containing personal data are deleted within 30 days.
+- Crash reports captured by Crashlytics are retained by Google for up to 90
+  days and then deleted automatically.
+- Analytics events are retained by Google for up to 14 months and then deleted
+  automatically.
 - If you simply uninstall the app without deleting the account, your Firestore
   data remains until you delete the account or **24 months of inactivity**
   elapse, whichever comes first.
@@ -190,7 +248,9 @@ If you are in the EEA, UK or Switzerland you have the right to:
 - **Portability** — receive your data in a machine-readable format. Consu lets
   you export your full library to CSV from Settings (Pro feature; available
   free on request).
-- **Objection** — object to processing based on legitimate interests.
+- **Objection** — object to processing based on legitimate interests,
+  including crash diagnostics and analytics. You can exercise this directly in
+  the app for crash diagnostics under **Settings → Diagnostics**.
 - **Withdraw consent** — where processing is based on consent.
 - **Lodge a complaint** with the Irish Data Protection Commission
   (https://www.dataprotection.ie) or your local EEA data-protection authority.
