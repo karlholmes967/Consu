@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Last updated: 24 April 2026**
+**Last updated: 15 May 2026**
 
 These Terms of Service ("Terms") govern your use of the Consu mobile
 application ("Consu", "the app"). By downloading, installing or using Consu you
@@ -73,9 +73,11 @@ features (see the app for the current feature list and price).
 - Payment is processed by Google Play Billing. Consu never sees your card
   details.
 - Purchase receipts are validated by RevenueCat on our behalf.
-- If you buy Pro and later reinstall the app, use **Restore Purchases** on
-  your Pro-upgrade screen to recover it. You must be signed in with the same
-  Google account you used for the original purchase.
+- If you buy Pro and later reinstall the app or switch device, use
+  **Restore Purchases** under **Settings → Consu Pro** to recover it. You must
+  be signed in to Google Play with the same Google account you used for the
+  original purchase. Restore Purchases is also available from inside the Pro
+  upgrade screen.
 
 ### 6.1 Refunds
 
