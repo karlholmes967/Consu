@@ -1,6 +1,6 @@
 # Consu Privacy Policy
 
-**Last updated: 1 July 2026**
+**Last updated: 4 August 2026**
 
 This Privacy Policy explains how Consu ("the app", "we", "our") collects, uses, and protects personal data when you use the Consu mobile application.
 
@@ -8,7 +8,7 @@ This Privacy Policy explains how Consu ("the app", "we", "our") collects, uses, 
 
 Consu is developed and operated by:
 
-**Karl Holmes**, sole developer (personal capacity). Based in Ireland. Contact: **karlballina@gmail.com**
+**Karl Holmes**, sole developer (personal capacity). Based in Ireland. Contact: **privacy@getconsu.com**
 
 For the purposes of the EU General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018, Karl Holmes is the data controller for the personal data processed through Consu.
 
@@ -19,17 +19,20 @@ Consu is designed to minimise data collection. The following is the full list of
 ### 2.1 Information you provide directly
 
 - **Media library data** — the films, TV shows, games, books and music you add to your library, along with any ratings, notes, tags, pinned items, custom lists, completion dates and parental-control settings you create.
+- **Imported library data** (optional) — if you choose to use one of the importers, Consu reads the file or account you point it at and turns it into library items. This covers the TV Time data export, the Spotify listening-history export, a Steam profile you identify by its Steam ID or vanity URL, and a ListenBrainz username you connect. Consu imports only titles, dates, ratings and play counts; the imported file is processed on your device and is not uploaded to us. You can remove imported items like any other item.
+- **Tracked time** — where a title has a known runtime, length or playtime, Consu derives an estimate of the time you have spent on your library and shows it back to you as totals and estimates. This is calculated from the items you have logged; we do not measure your actual usage of other apps or services.
 - **Profile information** — a display name, friend code, and optional custom avatar image you choose yourself.
-- **Social data** — the friend codes of other Consu users you connect with, shared lists you create or join, and recommendations you send or receive. You control how much of your profile is visible to other people through the Public / Friends / Private setting (see section 10).
+- **Social data** — the friend codes of other Consu users you connect with, shared lists you create or join, and recommendations you send or receive. You control how much of your profile is visible to other people through the Public / Mutuals / Private setting (see section 10).
 - **Account linking data** (optional) — if you choose to link your account to a Google or Apple sign-in provider, we receive the email address associated with that provider to identify your account across devices. If you use Sign in with Apple and choose "Hide My Email," we receive only Apple's anonymised relay address, not your real email.
 
 ### 2.2 Information created automatically
 
 - **Anonymous user ID (UID)** — when you first open the app, Firebase Authentication assigns you a random anonymous UID. This UID is used to associate your cloud-synced data with your device. It is not linked to any personally identifying information unless you choose to link a Google or Apple account.
 - **Device-local preferences** — theme, accent colour, zoom settings, completed tutorials and similar UI state are stored on your device.
+- **Last-active timestamp** — the time your library was last synced to the cloud is recorded on your profile. If your profile is visible to other people (see section 10) it can be shown to them as an approximate "last active" time. It is not a precise log of when you opened the app.
 - **App-integrity checks** — Consu uses Firebase App Check (Play Integrity on Android, App Attest on iOS) to confirm that requests come from a genuine, untampered copy of the app. This produces a short-lived device-integrity token used only to protect the service from abuse; it does not identify you personally.
 - **Crash diagnostics** — when the app crashes, Firebase Crashlytics records the crash stack trace, the operating system version, the device model, the app version, and the breadcrumbs of the most recent in-app actions. This data is automatically generated and does not include the contents of your library or personal messages. You can opt out under **Settings → Diagnostics → Send crash reports**.
-- **Usage analytics** — Firebase Analytics records a small set of funnel events (first app open, onboarding completion, first item added, first rating, Pro purchase, account deletion). The events themselves carry no library content, names, or messages. Firebase also automatically logs technical events such as screen views and an approximate country derived from your IP address. You can opt out under **Settings → Diagnostics**.
+- **Usage analytics** — Firebase Analytics records events from a closed, hard-coded list: a signup funnel (first app open, onboarding completion, first item added, first rating, Pro purchase, account deletion), which locked feature opened the Pro upgrade screen, and which recommendation and discovery surfaces you were shown and acted on. These record the *kind* of thing shown, never the thing itself — no title, search term, service name or free text — and are described in full in section 4.1b. Firebase also automatically logs technical events such as screen views and an approximate country derived from your IP address. You can opt out under **Settings → Diagnostics**.
 
 ### 2.3 Information we do NOT collect
 
@@ -89,7 +92,8 @@ Policy: https://firebase.google.com/support/privacy
 
 Used to measure a minimal funnel of usage signals. Analytics receives:
 
-- Six custom events: `install`, `onboarding_complete`, `first_add`, `first_rate`, `pro_purchase`, `account_deletion`. Event names only — no parameters carrying content.
+- **Product events** drawn from a closed, hard-coded list of event names (currently around seventy). These cover a small signup funnel (`install`, `onboarding_complete`, `first_add`, `first_rate`, `pro_purchase`, `account_deletion`), which locked feature opened the Pro upgrade screen, and which recommendation, "Fits tonight", availability and Steam surfaces were shown, opened, added, started or dismissed. The names describe the *kind* of thing shown, never the thing itself: they contain no title, no search term, no service or store name, no Steam ID and no free text. An event name that is not on the list is discarded rather than sent.
+- **A small set of event parameters**, each restricted to a fixed list of permitted values: the media category (movies, TV, games, books or music), a position label, how an item was opened, and a few numeric buckets. A value outside the permitted list is dropped before the event is sent, so these parameters cannot carry library content.
 - Auto-collected events such as `screen_view`, `app_open`, and `first_open`.
 - An approximate country derived from your IP address. The IP itself is not retained.
 - A randomly generated app-instance identifier used to deduplicate sessions.
@@ -122,12 +126,25 @@ Consu displays metadata sourced from the following services. Each receives only 
 | **RAWG** | Video-game metadata, screenshots | https://rawg.io/privacy_policy |
 | **Steam** (Valve) | Video-game store data | https://store.steampowered.com/privacy_agreement/ |
 | **Google Books** | Book metadata, covers | https://policies.google.com/privacy |
-| **Open Library** | Supplementary book metadata | https://openlibrary.org/about/privacy |
+| **Open Library** | Supplementary book metadata, including whether a book can be borrowed free | https://openlibrary.org/about/privacy |
 | **New York Times Books API** | Bestseller lists | https://www.nytimes.com/privacy/privacy-policy |
 | **Deezer** | Music track and album metadata | https://www.deezer.com/legal/personal-datas |
 | **MusicBrainz** | Open-source music database | https://metabrainz.org/privacy |
+| **ListenBrainz** | Listening history, only if you connect a username | https://metabrainz.org/privacy |
 | **Cover Art Archive** | Album artwork | https://metabrainz.org/privacy |
 | **Apple iTunes Search API** | Music and podcast metadata | https://www.apple.com/legal/privacy/ |
+
+### 4.3a Wikimedia (Wikidata and Wikipedia) — requested directly by the app
+
+Consu also shows information drawn from **Wikidata** (awards, adaptations and links between related works) and **Wikipedia** (author and artist biographies, critical reception). Unlike every service in the table above, these two are requested **directly by the app rather than through the Cloudflare Worker**, because they need no API key.
+
+The practical difference is that the Wikimedia Foundation receives your device's IP address and standard HTTP request metadata along with the lookup, in the same way as if you had opened the page in a browser. It receives only the title or identifier being looked up — never your Firebase UID, email, display name or library contents.
+
+Policy: https://foundation.wikimedia.org/wiki/Policy:Privacy_policy
+
+### 4.3b Links out of the app
+
+Some screens offer links to services we do not fetch data from, such as an **Internet Archive** page where a book can be borrowed free, or a store page for a game. Consu sends nothing to these services unless you tap the link. Once you do, you are on that service's own site and its privacy policy applies.
 
 This product uses the TMDB API but is not endorsed or certified by TMDB. Similarly, Consu is not affiliated with or endorsed by any of the other metadata providers listed.
 
@@ -166,36 +183,38 @@ If you are in the EEA, UK or Switzerland you have the right to:
 - **Rectification** — correct inaccurate data (you can edit most of it yourself in the app).
 - **Erasure** ("right to be forgotten") — delete your data, primarily by using the in-app deletion feature.
 - **Restriction** — ask us to limit how we process your data.
-- **Portability** — receive your data in a machine-readable format. Consu lets you export your full library to CSV from Settings (Pro feature; available free on request).
+- **Portability** — receive your data in a machine-readable format. Consu lets you export your full library as JSON from **Settings → Data → Export JSON**, free and with no account requirement. A spreadsheet-friendly CSV export is also offered as part of the paid Pro upgrade; this is a convenience format only, and it does not affect your right to obtain your data free of charge through the JSON export or by emailing us.
 - **Objection** — object to processing based on legitimate interests, including crash diagnostics and analytics. You can exercise this directly in the app under **Settings → Diagnostics**.
 - **Withdraw consent** — where processing is based on consent.
 - **Lodge a complaint** with the Irish Data Protection Commission (https://www.dataprotection.ie) or your local EEA data-protection authority.
 
-To exercise any of these rights, email **karlballina@gmail.com**. We will respond within one month.
+To exercise any of these rights, email **privacy@getconsu.com**. We will respond within one month.
 
 ## 8. How to delete your data
 
 In the app: **Settings → Account → Delete Account**, type `DELETE`, confirm. This removes your profile, library, ratings, friend connections, follow graph, shared lists, feed activity, notifications, custom avatar and Firebase Auth account. For users who signed in with Apple, we also revoke the Apple sign-in token as part of deletion.
 
-If the in-app flow fails for any reason, email **karlballina@gmail.com** with the Firebase UID visible in Settings → About, and we will delete your data manually.
+If the in-app flow fails for any reason, email **privacy@getconsu.com** with the Firebase UID visible in Settings → About, and we will delete your data manually.
 
 ## 9. Children
 
-Consu is intended for users aged 13 and over, is age-rated accordingly on the Apple App Store and Google Play, and is not directed at children under 13.
+Consu is intended for users aged 13 and over and is not directed at children under 13. The age ratings shown on the Apple App Store and Google Play describe content suitability and are set through each store's own questionnaire; the minimum age for using Consu is the one stated in our Terms of Service.
 
 In countries where the digital age of consent under GDPR is higher than 13 (Ireland: 16; Germany: 16; Netherlands: 16; Italy: 14; France: 15; etc.), users under that age must have the consent of a parent or legal guardian to use Consu. If we become aware that we have collected personal data from a child below the applicable age without parental consent, we will delete it.
 
-Parents: to request deletion of a child's data, email **karlballina@gmail.com**.
+Parents: to request deletion of a child's data, email **privacy@getconsu.com**.
 
 ## 10. Profile visibility — who else can see your data
 
 Firebase Storage and Firestore enforce per-user security rules. What other people can see depends on the visibility setting you choose for your profile:
 
 - **Private** — no other user can read your library or profile.
-- **Friends** — only people whose friend request you have accepted can see your full library and profile.
+- **Mutuals** — only people you and they both follow each other ("mutuals") can see your full library and profile.
 - **Public** — your display name, avatar and a snapshot of your library are visible to other Consu users, including through the in-app Explore surface. Public-profile data is readable by anyone using the app.
 
-You can change this setting at any time in the app, and you can choose which sections (for example your taste stats or current activity) are included.
+Where your profile is visible, it can include your display name and avatar, a snapshot of your library and ratings, your taste statistics, what you are currently reading, watching or playing, your follower and following counts, your estimated tracked time, the milestones you have earned and your current day-streak, and an approximate last-active time.
+
+You can change this setting at any time in the app, and you can choose which sections are included — taste statistics, current activity, tracked time and milestones each have their own switch. Turning a section off removes it from what other people can read.
 
 ## 11. Security
 
@@ -203,7 +222,7 @@ You can change this setting at any time in the app, and you can choose which sec
 - Firestore and Firebase Storage enforce per-user security rules so that data is only readable in line with your chosen visibility setting (see section 10).
 - Your password is never handled by Consu — authentication is delegated to Google or Apple.
 
-No system is perfectly secure. If you believe your account has been compromised, contact **karlballina@gmail.com** and change your linked Google or Apple account password immediately.
+No system is perfectly secure. If you believe your account has been compromised, contact **privacy@getconsu.com** and change your linked Google or Apple account password immediately.
 
 ## 12. Changes to this policy
 
@@ -213,4 +232,4 @@ We may update this Privacy Policy to reflect changes to the app, legal requireme
 
 For any privacy-related question, request or complaint:
 
-**Karl Holmes** — karlballina@gmail.com
+**Karl Holmes** — privacy@getconsu.com
