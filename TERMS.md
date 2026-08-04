@@ -1,14 +1,14 @@
 # Terms of Service | Consu
 
-**Last updated: 1 July 2026**
+**Last updated: 4 August 2026**
 
 These Terms of Service govern your use of the Consu mobile application. By downloading, installing or using Consu you agree to these Terms. If you do not agree, do not use the app.
 
 ## 1. The service
 
-Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a private library, rate and annotate items, share selected content with friends, and view stats about your consumption habits.
+Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a library, rate and annotate items, follow other users, choose how much of your profile they can see, discover titles through other people's libraries, and view statistics about your consumption habits.
 
-Consu is provided by Karl Holmes, a sole developer based in Ireland, contactable at karlballina@gmail.com.
+Consu is provided by Karl Holmes, a sole developer based in Ireland, contactable at support@getconsu.com.
 
 ## 2. Eligibility
 
@@ -18,7 +18,7 @@ You must be at least 13 years old to use Consu. If you are under the age of digi
 
 When you open the app for the first time, Consu creates an anonymous account linked to a random unique identifier. You can optionally link this account to a Google or Apple sign-in to enable cross-device sync and recover your library if you reinstall.
 
-You are responsible for keeping your linked sign-in credentials secure, the content you add to the app, and the accuracy of information you share with friends.
+You are responsible for keeping your linked sign-in credentials secure, the content you add to the app, and the accuracy of anything you make visible to other people.
 
 You can delete your account at any time via Settings → Account → Delete Account. Deletion is permanent.
 
@@ -30,9 +30,19 @@ Consu has zero tolerance for objectionable content and abusive behaviour. You ca
 
 ## 5. Third-party content
 
-Metadata about films, TV shows, games, books and music is supplied by third parties (including TMDB, OMDB, RAWG, Steam, Google Books, Open Library, the New York Times, Deezer, MusicBrainz and the Apple iTunes Search API). This content is provided "as is" without warranty of accuracy or completeness.
+Metadata about films, TV shows, games, books and music is supplied by third parties (including TMDB, OMDB, RAWG, Steam, Google Books, Open Library, the New York Times, Deezer, MusicBrainz, ListenBrainz, the Cover Art Archive, Wikidata, Wikipedia and the Apple iTunes Search API). This content is provided "as is" without warranty of accuracy or completeness.
 
-This product uses the TMDB API but is not endorsed or certified by TMDB. Consu is not affiliated with, endorsed by, or certified by TMDB, RAWG, Google, Apple, or any media publisher.
+Consu may also link you to other services, such as an Internet Archive page where a book can be borrowed. We do not control those services and are not responsible for their content or availability.
+
+Streaming and rental availability is sourced from TMDB's watch-provider data, powered by JustWatch, and is shown with the attribution that data requires. Availability varies by region and changes without notice; Consu does not sell, rent or provide access to any title, and a listing is not a guarantee that a title is available to you.
+
+This product uses the TMDB API but is not endorsed or certified by TMDB. Consu is not affiliated with, endorsed by, or certified by TMDB, RAWG, Google, Apple, JustWatch, or any media publisher.
+
+### 5.1 Importing from other services
+
+Consu can import your data from other services, including a TV Time export, a Spotify listening-history export, a Steam profile you identify, and a ListenBrainz username you connect. You are responsible for ensuring you have the right to the data you import and for the accuracy of what you bring in.
+
+Consu is not affiliated with, endorsed by, or partnered with TV Time, Spotify, Valve/Steam, ListenBrainz or MetaBrainz. These importers depend on services outside our control and may stop working, change, or be withdrawn at any time without notice.
 
 ## 6. Consu Pro (paid upgrade)
 
@@ -44,11 +54,13 @@ If you buy Pro and later reinstall the app or switch device, use Restore Purchas
 
 Pro is a digital product made available immediately on purchase. EU consumers consent to immediate performance, and the statutory 14-day right of withdrawal does not apply once delivered.
 
-Where the law requires a refund, or if you were charged in error, you may request one through the refund process of the store you purchased from (the Apple App Store or Google Play), or by emailing karlballina@gmail.com. Refunds for Apple App Store purchases are handled solely by Apple.
+Where the law requires a refund, or if you were charged in error, you may request one through the refund process of the store you purchased from (the Apple App Store or Google Play), or by emailing support@getconsu.com. Refunds for Apple App Store purchases are handled solely by Apple.
 
 ## 7. Intellectual property
 
-The Consu app, its name, logo, design and code are owned by Karl Holmes. You retain ownership of content you create in the app. By sharing content with friends or to shared lists, you grant Karl Holmes a limited, royalty-free licence to store, display and transmit that content only as necessary to provide the requested service.
+The Consu app, its name, logo, design and code are owned by Karl Holmes. You retain ownership of content you create in the app.
+
+When you make part of your profile or library visible to other people — by setting your profile to Mutuals or Public, sharing to a list, or appearing in the activity feed or the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to, and only as necessary to provide that service. This licence covers only what your own visibility settings expose, it is not exclusive, and it ends for future display when you change those settings or delete the content or your account.
 
 You may not reproduce, redistribute, or create derivative works based on the app without written permission.
 
@@ -56,7 +68,7 @@ You may not reproduce, redistribute, or create derivative works based on the app
 
 Consu respects intellectual-property rights and expects users to do the same. Consu is a personal tracking app and does not host media files, but users can add titles, notes, custom lists and profile content, and the app displays metadata and artwork supplied by third parties.
 
-If you believe content shown in or shared through Consu infringes your copyright, send a notice to **karlballina@gmail.com** including:
+If you believe content shown in or shared through Consu infringes your copyright, send a notice to **support@getconsu.com** including:
 
 - your name and contact details;
 - identification of the copyrighted work you claim has been infringed;
@@ -112,7 +124,7 @@ On termination, sections 5, 7, 8, 9, 11, 12, 14 and 15 survive.
 
 These Terms are governed by the laws of Ireland and subject to the exclusive jurisdiction of the Irish courts, except that EEA consumer residents retain the mandatory consumer-protection rules of their country and may bring proceedings there.
 
-EU consumers may use the European Commission's Online Dispute Resolution platform.
+If we cannot resolve a dispute directly, EU consumers may refer it to a certified alternative dispute resolution (ADR) body in their own country, or seek guidance from their national European Consumer Centre (https://ec.europa.eu/info/live-work-travel-eu/consumer-rights-and-complaints/resolve-your-consumer-complaint_en). We are not obliged to use, and do not commit to using, any particular ADR scheme.
 
 ## 15. Changes to these Terms
 
@@ -122,4 +134,4 @@ We may update these Terms from time to time. Material changes will be announced 
 
 For questions about these Terms:
 
-Karl Holmes — karlballina@gmail.com
+Karl Holmes — support@getconsu.com
