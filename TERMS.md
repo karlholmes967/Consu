@@ -1,12 +1,12 @@
 # Terms of Service | Consu
 
-**Last updated: 4 August 2026**
+**Last updated: 20 August 2026**
 
 These Terms of Service govern your use of the Consu mobile application. By downloading, installing or using Consu you agree to these Terms. If you do not agree, do not use the app.
 
 ## 1. The service
 
-Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a library, rate and annotate items, follow other users, choose how much of your profile they can see, discover titles through other people's libraries, and view statistics about your consumption habits.
+Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a library, rate and annotate items, import from other services, follow other users, choose how much of your profile they can see, build shared lists with other people, discover titles through other people's libraries, and view statistics about your consumption habits.
 
 Consu is provided by Karl Holmes, a sole developer based in Ireland, contactable at support@getconsu.com.
 
@@ -20,35 +20,46 @@ When you open the app for the first time, Consu creates an anonymous account lin
 
 You are responsible for keeping your linked sign-in credentials secure, the content you add to the app, and the accuracy of anything you make visible to other people.
 
-You can delete your account at any time via Settings → Account → Delete Account. Deletion is permanent.
+You can delete your account at any time: scroll to the bottom of Settings and tap **Delete My Account & All Data**. Deletion is permanent. What it removes, and the few things that stay with other members of a shared list, are set out in section 8 of our Privacy Policy.
 
 ## 4. Acceptable use
 
 You agree not to use Consu to harass, threaten, defame or impersonate another person; upload, share, or display unlawful, obscene, hateful, or infringing content; attempt to reverse-engineer or circumvent licensing mechanisms; scrape or mass-extract data; or interfere with the service.
 
-Consu has zero tolerance for objectionable content and abusive behaviour. You can report a profile or block another user at any time from within the app (open a profile, then use the report or block option). We review reports and may remove content and suspend or terminate the accounts of offending users, typically within 24 hours of a valid report. We may also suspend or terminate your access for breaches of these rules, and remove content you have uploaded for repeated or serious violations.
+Consu has zero tolerance for objectionable content and abusive behaviour. You can report a profile or block another user at any time from within the app (open a profile, then use the report or block option); blocked users are listed under Settings → Blocked Users, where you can also unblock them. We review reports and may remove content and suspend or terminate the accounts of offending users, typically within 24 hours of a valid report. We may also suspend or terminate your access for breaches of these rules, and remove content you have uploaded for repeated or serious violations.
+
+### 4.1 Shared Lists and Together queues
+
+Consu offers two features that are shared with other people by design: **Shared Lists**, where a group adds and votes on titles, and **Together queues**, where two people build a queue between them. Creating a shared list adds your mutuals as members.
+
+By using them you accept that:
+
+- Every member can see the list, who its members are, the titles you add, your display name against them, and everyone's votes. This is the point of the feature, and your profile-visibility setting does not restrict it.
+- You are responsible for what you add, including list and queue names, which must meet the standards in section 4.
+- The content of a list belongs to the list. If you leave, or delete your account, you are removed as a member but the titles and votes you contributed remain for the others. Remove them first if you want them gone.
+- We may remove a list, a queue, or an item in one, if it breaches these Terms.
 
 ## 5. Third-party content
 
-Metadata about films, TV shows, games, books and music is supplied by third parties (including TMDB, OMDB, RAWG, Steam, Google Books, Open Library, the New York Times, Deezer, MusicBrainz, ListenBrainz, the Cover Art Archive, Wikidata, Wikipedia and the Apple iTunes Search API). This content is provided "as is" without warranty of accuracy or completeness.
+Metadata about films, TV shows, games, books and music is supplied by third parties (including TMDB, OMDB, IGDB, RAWG, Steam, Nintendo, Microsoft/Xbox, Sony/PlayStation, Google Books, Open Library, the New York Times, Deezer, MusicBrainz, ListenBrainz, the Cover Art Archive, Wikidata, Wikipedia and the Apple iTunes Search API). This content is provided "as is" without warranty of accuracy or completeness. Cover art and other artwork remain the property of their respective owners and are shown for identification of the title you are tracking.
 
 Consu may also link you to other services, such as an Internet Archive page where a book can be borrowed. We do not control those services and are not responsible for their content or availability.
 
 Streaming and rental availability is sourced from TMDB's watch-provider data, powered by JustWatch, and is shown with the attribution that data requires. Availability varies by region and changes without notice; Consu does not sell, rent or provide access to any title, and a listing is not a guarantee that a title is available to you.
 
-This product uses the TMDB API but is not endorsed or certified by TMDB. Consu is not affiliated with, endorsed by, or certified by TMDB, RAWG, Google, Apple, JustWatch, or any media publisher.
+This product uses the TMDB API but is not endorsed or certified by TMDB. Game data is provided by IGDB.com. Consu is not affiliated with, endorsed by, or certified by TMDB, IGDB, Twitch, Amazon, RAWG, Valve, Nintendo, Microsoft, Sony Interactive Entertainment, Google, Apple, the Wikimedia Foundation, JustWatch, or any media publisher.
 
 ### 5.1 Importing from other services
 
-Consu can import your data from other services, including a TV Time export, a Spotify listening-history export, a Steam profile you identify, and a ListenBrainz username you connect. You are responsible for ensuring you have the right to the data you import and for the accuracy of what you bring in.
+Consu can import your data from other services, including a TV Time export, a Letterboxd CSV export, a Goodreads CSV export, a Spotify listening-history export, a Steam profile you identify, and a ListenBrainz username you connect. You are responsible for ensuring you have the right to the data you import and for the accuracy of what you bring in.
 
-Consu is not affiliated with, endorsed by, or partnered with TV Time, Spotify, Valve/Steam, ListenBrainz or MetaBrainz. These importers depend on services outside our control and may stop working, change, or be withdrawn at any time without notice.
+Consu is not affiliated with, endorsed by, or partnered with TV Time, Letterboxd, Goodreads, Amazon, Spotify, Valve/Steam, ListenBrainz or MetaBrainz. These importers depend on services outside our control and may stop working, change, or be withdrawn at any time without notice.
 
 ## 6. Consu Pro (paid upgrade)
 
 Consu Pro is an optional, one-time in-app purchase that unlocks additional features. Pro is a one-time purchase, not a subscription, and carries no recurring charge. Payment is processed by the app store you purchased through — the Apple App Store on iOS or Google Play on Android — and purchase receipts are validated by RevenueCat.
 
-If you buy Pro and later reinstall the app or switch device, use Restore Purchases under Settings → Consu Pro to recover it.
+If you buy Pro and later reinstall the app or switch device, use **Restore Purchases** — near the top of Settings, beneath the Consu Pro card — to recover it.
 
 ### 6.1 Refunds
 
@@ -60,7 +71,9 @@ Where the law requires a refund, or if you were charged in error, you may reques
 
 The Consu app, its name, logo, design and code are owned by Karl Holmes. You retain ownership of content you create in the app.
 
-When you make part of your profile or library visible to other people — by setting your profile to Mutuals or Public, sharing to a list, or appearing in the activity feed or the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to, and only as necessary to provide that service. This licence covers only what your own visibility settings expose, it is not exclusive, and it ends for future display when you change those settings or delete the content or your account.
+When you make part of your profile or library visible to other people — by setting your profile to Mutuals or Public, contributing to a Shared List or Together queue, sending a recommendation, reacting to someone's activity, or appearing in the activity feed or the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to, and only as necessary to provide that service. This licence covers only what your own choices expose, and it is not exclusive.
+
+The licence ends for future display when you change those settings or delete the content or your account, with one necessary exception: content you contributed to a Shared List or Together queue, or sent to another person, stays available to the people you shared it with until it is removed from the list or from their account, as described in section 4.1.
 
 You may not reproduce, redistribute, or create derivative works based on the app without written permission.
 
@@ -118,7 +131,7 @@ You may stop using Consu by deleting the app and optionally deleting your accoun
 
 We may terminate your access if you materially breach these Terms, continuing would expose us to legal liability, or we discontinue the service.
 
-On termination, sections 5, 7, 8, 9, 11, 12, 14 and 15 survive.
+On termination, sections 4.1, 5, 7, 8, 9, 11, 12, 14 and 15 survive.
 
 ## 14. Governing law
 
