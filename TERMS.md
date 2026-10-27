@@ -1,6 +1,6 @@
 # Terms of Service | Consu
 
-**Last updated: 22 October 2026**
+**Last updated: 27 October 2026**
 
 These Terms of Service govern your use of the Consu mobile application. By downloading, installing or using Consu you agree to these Terms. If you do not agree, do not use the app.
 
@@ -30,13 +30,13 @@ Consu has zero tolerance for objectionable content and abusive behaviour. You ca
 
 ### 4.1 Shared Lists and Together queues
 
-Consu offers two features that are shared with other people by design: **Shared Lists**, where a group adds and votes on titles, and **Together queues**, where two people build a queue between them. Creating a shared list adds all of your mutuals as members. In this version of the app these screens open only for people who already belong to a list or queue.
+Consu offers two features that are shared with other people by design: **Shared Lists**, where a group adds and votes on titles, and **Together queues**, where two people build a queue between them. New Shared Lists cannot be made in this version of the app, and these screens open only for people who already belong to a list or queue.
 
 By using them you accept that:
 
 - Every member can see the list, who its members are and the titles you add; on a Shared List also your display name against them, and everyone's votes and reactions. This is the point of the feature, and your profile-visibility setting does not restrict it.
 - You are responsible for what you add, including list and queue names, which must meet the standards in section 4.
-- The content of a list belongs to the list. This version of the app has no way to leave a list or queue: deleting your account removes you as a member, and the titles and votes you contributed remain for the others. Before that you can remove titles you added to a Shared List and undo your votes; titles in a Together queue cannot be removed in this version, so email support@getconsu.com if you want one gone.
+- The content of a list belongs to the list. You can remove titles you added (on a Together queue, with **Remove** on your own titles) and undo your votes. You can leave a list or queue at any time: your votes, "seen" marks and reactions go with you, and the titles you added stay for the other members; a list you made passes to a member who stays, and the last member to leave deletes it. Deleting your account leaves every list and queue the same way and takes your name off the titles you added.
 - We may remove a list, a queue, or an item in one, if it breaches these Terms.
 
 ## 5. Third-party content
@@ -75,7 +75,7 @@ The Consu app, its name, logo, design and code are owned by Karl Holmes. You ret
 
 When you make part of your profile or library visible to other people — by choosing a display name or profile photo, setting your profile to Mutuals or Public, keeping a public web page of your profile, following someone, writing a review or a reply, contributing to a Shared List or Together queue, sending a title or a recommendation, taking a pick someone sent you, reacting to someone's activity, or appearing in the activity feed, on the monthly board or in the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to (for a public web page, anyone who opens its link), and to keep a copy of it when someone reports it, only as necessary to provide that service and to act on reports. This licence covers only what your own choices expose, and it is not exclusive.
 
-The licence ends for future display when you change those settings or delete the content or your account, with these necessary exceptions: posts you have already made stay in your activity history, where your mutuals can see them, until you delete your account (hiding a post takes it out of their feeds); content you contributed to a Shared List or Together queue stays available to its members until it is removed from the list; and anything you sent to, or left on the posts of, someone you no longer follow and who no longer follows you when you delete your account stays with them until it is removed from their account. These are described in section 4.1 and in sections 8 and 10 of our Privacy Policy.
+The licence ends for future display when you change those settings or delete the content or your account, with these necessary exceptions: posts you have already made stay in your activity history until you delete your account, where your mutuals can see them while your profile is Public or Mutuals (hiding a post takes it out of their feeds, and hiding a category deletes the posts made in it); titles you added to a Shared List or Together queue stay available to its members, after you leave it too, until they are removed from the list; and anything you sent to, or left on the posts of, someone you no longer follow and who no longer follows you when you delete your account stays with them until it is removed from their account. These are described in section 4.1 and in sections 8 and 10 of our Privacy Policy.
 
 You may not reproduce, redistribute, or create derivative works based on the app without written permission.
 
