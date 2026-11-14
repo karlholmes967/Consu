@@ -1,12 +1,12 @@
 # Terms of Service | Consu
 
-**Last updated: 27 October 2026**
+**Last updated: 14 November 2026**
 
 These Terms of Service govern your use of the Consu mobile application. By downloading, installing or using Consu you agree to these Terms. If you do not agree, do not use the app.
 
 ## 1. The service
 
-Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a library, rate, review and annotate items, import from other services, follow other users, share what you start and finish with them, react and reply to their posts, send them titles, choose how much of your profile they can see (including a public web page of it), build shared lists with other people (section 4.1), discover titles through other people's libraries, and view statistics about your consumption habits.
+Consu is a personal media-tracking app for films, TV shows, games, books and music. It lets you build a library, rate, review, rank and annotate items, import from other services, follow other users, share what you start and finish with them, react and reply to their posts, send them titles, choose how much of your profile they can see (including a public web page of it), build shared lists with other people (section 4.1), discover titles through other people's libraries, and view statistics about your consumption habits.
 
 Consu is provided by Karl Holmes, a sole developer based in Ireland, contactable at support@getconsu.com.
 
@@ -73,7 +73,7 @@ Where the law requires a refund, or if you were charged in error, you may reques
 
 The Consu app, its name, logo, design and code are owned by Karl Holmes. You retain ownership of content you create in the app.
 
-When you make part of your profile or library visible to other people — by choosing a display name or profile photo, setting your profile to Mutuals or Public, keeping a public web page of your profile, following someone, writing a review or a reply, contributing to a Shared List or Together queue, sending a title or a recommendation, taking a pick someone sent you, reacting to someone's activity, or appearing in the activity feed, on the monthly board or in the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to (for a public web page, anyone who opens its link), and to keep a copy of it when someone reports it, only as necessary to provide that service and to act on reports. This licence covers only what your own choices expose, and it is not exclusive.
+When you make part of your profile or library visible to other people — by choosing a display name or profile photo, setting your profile to Mutuals or Public, keeping a public web page of your profile, following someone, writing a review or a reply, making a ranking, contributing to a Shared List or Together queue, sending a title or a recommendation, taking a pick someone sent you, reacting to someone's activity, or appearing in the activity feed, on the monthly board or in the Explore surface — you grant Karl Holmes a limited, royalty-free licence to store, reproduce, display and transmit that content to the people you have made it visible to (for a public web page, anyone who opens its link), and to keep a copy of it when someone reports it, only as necessary to provide that service and to act on reports. This licence covers only what your own choices expose, and it is not exclusive.
 
 The licence ends for future display when you change those settings or delete the content or your account, with these necessary exceptions: posts you have already made stay in your activity history until you delete your account, where your mutuals can see them while your profile is Public or Mutuals (hiding a post takes it out of their feeds, and hiding a category deletes the posts made in it); titles you added to a Shared List or Together queue stay available to its members, after you leave it too, until they are removed from the list; and anything you sent to, or left on the posts of, someone you no longer follow and who no longer follows you when you delete your account stays with them until it is removed from their account. These are described in section 4.1 and in sections 8 and 10 of our Privacy Policy.
 
