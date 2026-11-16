@@ -1,6 +1,6 @@
 # Terms of Service | Consu
 
-**Last updated: 14 November 2026**
+**Last updated: 16 November 2026**
 
 These Terms of Service govern your use of the Consu mobile application. By downloading, installing or using Consu you agree to these Terms. If you do not agree, do not use the app.
 
@@ -38,6 +38,17 @@ By using them you accept that:
 - You are responsible for what you add, including list and queue names, which must meet the standards in section 4.
 - The content of a list belongs to the list. You can remove titles you added (on a Together queue, with **Remove** on your own titles) and undo your votes. You can leave a list or queue at any time: your votes, "seen" marks and reactions go with you, and the titles you added stay for the other members; a list you made passes to a member who stays, and the last member to leave deletes it. Deleting your account leaves every list and queue the same way and takes your name off the titles you added.
 - We may remove a list, a queue, or an item in one, if it breaches these Terms.
+
+### 4.2 Reports, moderation and illegal content
+
+This section says how Consu handles what people post, as the EU Digital Services Act asks of a service that stores its users' content.
+
+- **Contact point.** For users, and for the authorities of EU Member States, the European Commission and the European Board for Digital Services: **support@getconsu.com**, in English. A person reads and answers it.
+- **Reporting illegal content.** Anyone, with or without an account, can report content they believe is illegal by emailing that address. Say what the content is and where it appears (for example a profile's name or friend code, and the review, reply or name concerned), why you believe it is illegal, and your name and email address. We confirm that we received it, tell you what we decided, and tell you how to contest that decision. In the app, **Report** in a profile's, review's or reply's ⋯ menu does the same for anything that breaks section 4.
+- **What is checked automatically.** When you type a display name, a review, a reply, a note sent with a title, a favourite character's name, or the name of a ranking, list or queue, the app checks it against a fixed word list on your device, and refuses text that matches or keeps it from being shared. Nothing else is automated: no software removes content or restricts an account.
+- **What a person decides.** Every report is read by the developer. Depending on what it shows, we may leave the content as it is, remove it, or suspend or close the account that posted it. We decide on the content, these Terms and the law, and treat every report the same way whoever sends it.
+- **If we act against your content or account.** Where your account is linked to an email address, we write to it when we remove or hide something of yours or suspend or close your account. We say what we did, the facts we relied on, whether a report led to it, which part of these Terms or which law it rests on, and how to contest it. An account that was never linked to Google or Apple gives us no address to write to.
+- **Contesting a decision.** Reply to that email, or write to support@getconsu.com, within six months. A person looks at it again and answers. You can also go to the courts of your country (section 14).
 
 ## 5. Third-party content
 
@@ -133,7 +144,7 @@ You may stop using Consu by deleting the app and optionally deleting your accoun
 
 We may terminate your access if you materially breach these Terms, continuing would expose us to legal liability, or we discontinue the service.
 
-On termination, sections 4.1, 5, 6.1, 7, 8, 9, 11, 12, 14 and 15 survive.
+On termination, sections 4.1, 4.2, 5, 6.1, 7, 8, 9, 11, 12, 14 and 15 survive.
 
 ## 14. Governing law
 
